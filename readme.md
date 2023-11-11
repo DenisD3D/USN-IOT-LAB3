@@ -91,3 +91,8 @@ For demonstration purposes, users can create their own account and view the dash
     ...
 ],
 ```
+
+To push the application to heroku for deployment, run the following commands:
+```bash
+git subtree push --prefix dashboard-application heroku main 
+```
