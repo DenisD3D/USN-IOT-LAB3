@@ -1,0 +1,7 @@
+paho-mqtt
+python-dotenv
+psycopg2
+numpy
+matplotlib
+control
+nidaqmx
