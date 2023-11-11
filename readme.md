@@ -96,3 +96,5 @@ To push the application to heroku for deployment, run the following commands:
 ```bash
 git subtree push --prefix dashboard-application heroku main 
 ```
+
+The dashboard application is deployed at https://usn-iot-lab3-332c197a7e45.herokuapp.com/
