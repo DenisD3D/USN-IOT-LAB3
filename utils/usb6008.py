@@ -6,7 +6,7 @@ class USB6008:
     def __init__(self):
         self.read_task = nidaqmx.Task()
         self.write_task = nidaqmx.Task()
-        self.read_task.ai_channels.add_ai_voltage_chan("Dev1/ai0", terminal_config=TerminalConfiguration.DIFF)
+        self.read_task.ai_channels.add_ai_voltage_chan("Dev1/ai0", terminal_config=TerminalConfiguration.RSE)
         self.write_task.ao_channels.add_ao_voltage_chan("Dev1/ao0", min_val=0, max_val=5)
         self.read_task.start()
         self.write_task.start()
