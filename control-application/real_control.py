@@ -35,8 +35,8 @@ if __name__ == '__main__':
         N = int(Tstop / Ts)  # Number of samples
 
         # Controller parameters (from stability_analysis.py)
-        Kp = 1.84
-        Ti = 19.75
+        Kp = 0.92  # 1.84
+        Ti = 40  # 19.75
 
         # Control setup
         r = 25  # Reference temperature [degC]
